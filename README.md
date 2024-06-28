@@ -90,7 +90,9 @@ This course is designed to help beginners get a solid understanding of JavaScrip
 - **Day 59:** Create Element
 - **Day 60:** Remove element in js 
 
-  ## Events in JS
+
+
+## Events in JS
 - **Day 61:** Event Listener in Js
 - **Day 62:** Form Event and Event Object
 - **Day 63:** Keyboard Events
