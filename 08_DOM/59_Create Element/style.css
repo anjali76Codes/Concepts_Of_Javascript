@@ -1,0 +1,21 @@
+
+body{
+    background-color: #f4ebeb;
+    color: #0a0a0a;
+}
+
+.container {
+    
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+img {
+    width: 50px;
+}
+
+ .img-container p{
+    margin: 0;
+ }

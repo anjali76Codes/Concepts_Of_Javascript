@@ -1,0 +1,12 @@
+Nodes in the DOM
+In the DOM, everything is a node. A node can be an element, attribute, text, comment, document, or any other type of DOM object. Nodes are organized in a tree-like structure, with the document node at the top and all other nodes branching off from it.
+
+Nodes have properties and methods that allow you to manipulate them and their child nodes. For example, you can use the appendChild() method to add a child node to an existing node.
+
+
+
+Elements in the DOM
+Elements are a specific type of node that represents an HTML or XML element. Elements have all the properties and methods of a node, but they also have additional properties and methods that are specific to elements.
+
+For example, elements have a tagName property that specifies the name of the element, such as “div” or “span”. Elements also have attributes, which can be accessed using the getAttribute() method or by simply accessing the attribute as a property of the element.
+
