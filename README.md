@@ -38,7 +38,6 @@ This course is designed to help beginners get a solid understanding of JavaScrip
 
 ## Loops
 - **Day 24:** Combined Assignment Operator in JS
-  ## Loops 
 - **Day 25:** While loop 
 - **Day 26:** For loop
 - **Day 27:** do-While loop
