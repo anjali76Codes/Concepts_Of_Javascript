@@ -104,7 +104,7 @@ card.addEventListener('mouseover', (e) => {
 
 
 
-// wheel event --> when scrolling using the touchpad or mouse, add card
+// wheel event --> when scrolling using the touch pad or mouse, add card
 card.addEventListener('wheel', (e) => {
     console.log(e)
     const newCard = document.createElement('div')
@@ -220,3 +220,7 @@ card.addEventListener('pointerleave', (e) => {
     newCard.innerText = count++
     container.append(newCard)   
 })
+
+
+
+

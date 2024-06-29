@@ -2,10 +2,12 @@
 
 
 
+
 function add(a,b){ 
     // console.log(a+b)
     return a+b
 }
+
 
 
 // If we are using onclick or ondblclick in HTML, by default it creates its own function and whatever we pass in this function is executed as a line of code.
@@ -20,11 +22,14 @@ const h1 = document.querySelector('h1')
 
 
 
+
 // here first  function event override by the second function
 h1.onclick = sayHi()
 
+
 // only take  this one
 h1.onclick = secondHi()
+
 
 
 

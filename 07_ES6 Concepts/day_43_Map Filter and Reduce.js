@@ -1,36 +1,45 @@
-// const nameList = ["Anjali", "Smith", "Roy", "Aisha"];
+const nameList = ["Anjali", "Smith", "Roy", "Aisha"];
 
-// // Map -->  Create new  array not do in existing array and iterates n times (length of the array)
+// Map -->  Create new  array not do in existing array and iterates n times (length of the array)
 
-// const mapResult = nameList.map((names) => {
-//   // console.log(nameList)
-//   console.log(names);
-//   return names.toUpperCase();
-// });
+const mapResult = nameList.map((names) => {
+  console.log(nameList)
+  console.log(names);
+  
+  return names.toUpperCase();
+});
 
-// console.log(mapResult);
 
-// // index
-// const Result = nameList.map((names, index) => {
-//   // console.log(nameList)
-//   console.log(index + 1, names);
-// });
+console.log(mapResult);
 
-// const filterResult = nameList.filter((names) => {
-//   // console.log(nameList)
-//   console.log(names);
 
-//   // filter --> filter the elements based on true or false and insert in new array not  in existing
 
-//   // return names.toUpperCase()    //  here this is a string which value is truthy hence  it filter the all elements into the new array
 
-//   // return false  // then filterResult [] --> empty
+// index
+const Result = nameList.map((names, index) => {
+  // console.log(nameList)
+  console.log(index + 1, names);
+});
 
-//   // return names.length>=4
-//   return names.includes("A");
-// });
 
-// console.log(filterResult);
+
+ // filter --> filter the elements based on true or false and insert in new array not  in existing
+const filterResult = nameList.filter((names) => {
+  // console.log(nameList)
+  console.log(names);
+
+ 
+  // return names.toUpperCase()    //  here this is a string which value is truthy hence  it filter the all elements into the new array
+
+  // return false  // then filterResult [] --> empty
+
+  // return names.length>=4
+  return names.includes("A");
+})
+
+console.log(filterResult);
+
+
 
 const students = [
   {
@@ -60,17 +69,17 @@ const students = [
 ];
 
 
-// const studentResult = students.filter((student)=>{
-//     console.log(student)
-//     console.log(student.age)
-//     return student.age>=18
-// }) . map((student)=>{
-//     console.log(student)
-//     return student.name
-// })
+const studentResult = students.filter((student)=>{
+    console.log(student)
+    console.log(student.age)
+    return student.age>=18
+}) . map((student)=>{
+    console.log(student)
+    return student.name
+})
 
 
-// console.log(studentResult)
+console.log(studentResult)
 
 // Reduce
 

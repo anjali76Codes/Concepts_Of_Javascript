@@ -17,6 +17,7 @@ const [fruit1 , fruit2 , fruit3 , fruit4] = fruits
 console.log(fruit1, fruit2 , fruit3 , fruit4)
 
 
+
 // if we want to access any particular elements of an array then we ca access like this : 
 // here skip three elements and return third
 
@@ -24,6 +25,8 @@ const [,,,fruit] = fruits
 
 const {2: fruit_3} = fruits
 console.log(fruit_3)
+
+
 
 
 // Object declaration
@@ -48,7 +51,11 @@ console.log(name , age , branch)
 
 
 
+
+
 // not want to create any variable instead of this we  just want to get its value
+
+
 
 
 const { name:username , age:user_age , branch: user_branch} = userDetails

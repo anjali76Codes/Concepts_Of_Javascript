@@ -43,7 +43,7 @@ paragraph.parentElement.parentElement.children
 
 
 // Sibling -> 1. previous   2. next
-// if we want to access the sibling of next to next then can't access directly nextnextElementSibling -> invalid
+// if we want to access the sibling of next to next then can't access directly next nextElementSibling -> invalid
 
 // here We can access the previous and next siblings like this ::
 
@@ -65,4 +65,7 @@ nextSibling   -> return the next node ignore the element
 
 paragraph.nextSibling  
 // -->      #text "\n\n   "
+
+
+
 

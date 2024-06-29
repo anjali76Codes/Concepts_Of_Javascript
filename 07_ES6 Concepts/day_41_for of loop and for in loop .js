@@ -47,10 +47,17 @@ for(const key in userDetails){
 }
 
 
+
+
+// converts in array form
 const userDetailsArray = Object.keys(userDetails)
 for(const key in userDetailsArray){
     console.log(key)
 }
+
+console.log(userDetailsArray)
+
+
 
 for(const key of userDetailsArray){
     console.log(key)

@@ -116,6 +116,8 @@ const newCard = card.cloneNode()
     container.append('savan' , h1 , 'Anjali') 
 
 
+    
+
     // appendChild  -> only add the newText (only one ) not next
     container.appendChild(newText , 'Anjali') 
 

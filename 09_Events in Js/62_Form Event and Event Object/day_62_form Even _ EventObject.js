@@ -2,7 +2,7 @@
 
 const input = document.querySelector("#username");
 const paragraph = document.querySelector("p");
-const form = document.querySelector("from");
+const form = document.querySelector("form");
 
 
 

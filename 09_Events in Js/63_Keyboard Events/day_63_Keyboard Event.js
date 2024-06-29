@@ -64,3 +64,4 @@ input.addEventListener('keydown' , (e)=>{
     console.log('Code :' , e.code)
     console.log('Value :' , e.key)
 })
+
